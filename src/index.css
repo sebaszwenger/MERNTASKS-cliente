@@ -57,7 +57,7 @@ a {
   margin-top: 2rem;
   font-family: var(--headingFont);
   padding: 1.5rem;
-  font-size: 1.4;
+  font-size: 1.4rem;
   font-weight: 400;
   border-radius: 0.5rem;
   border: none;
@@ -88,6 +88,9 @@ a {
   padding: 0;
   display: block;
   background-color: transparent;
+}
+.btn-eliminar {
+  background-color: var(--blanco);
 }
 
 @media (min-width: 768px) {
@@ -314,10 +317,42 @@ aside {
   border: 1px solid #e1e1e1;
   padding: 1rem;
   flex: 1;
+  width: calc(100% - 32px);
 }
 
 .enlace-cuenta {
   margin-top: 2rem;
   display: block;
   opacity: 0.7;
+}
+
+.alerta {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  font-family: var(--headingFont);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  text-align: center;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .alerta {
+    width: auto;
+    top: 30px;
+    right: 10px;
+    left: auto;
+  }
+}
+
+.alerta-ok {
+  background-color: rgb(109, 211, 109);
+  color: rgb(2, 103, 2);
+}
+.alerta-error {
+  background-color: rgb(230, 78, 78);
+  color: var(--blanco);
 }
