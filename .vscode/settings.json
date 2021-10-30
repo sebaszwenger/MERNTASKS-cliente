@@ -1,4 +1,3 @@
 {
-  "editor.minimap.enabled": false,
-  "workbench.colorTheme": "Visual Studio Dark"
+  "editor.minimap.enabled": false
 }
