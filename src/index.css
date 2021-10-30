@@ -91,6 +91,7 @@ a {
 }
 .btn-eliminar {
   background-color: var(--blanco);
+  color: red;
 }
 
 @media (min-width: 768px) {
